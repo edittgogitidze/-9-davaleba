@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "DM Sans", sans-serif;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.btn{
+    border: unset;
+    border-radius: 23px ;
+    background-color:#0C0C0C ;
+    color: #FBFBFB;
+    padding: 7px 7px;
+}
+
+.mg-20{
+    margin-top: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: #0C0C0CE5;
+}
+ul li{
+    list-style: none;
+}
+h1{ 
+text-align: center;
+letter-spacing: 1%;
+}
+
+.baner{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #0C0C0C;
+    padding: 100px 100px;
+    color: #FBFBFB;
+    border-radius:20px;
+    margin-top: 50px;
+    font-size: x-large;
+}
