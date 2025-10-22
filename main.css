@@ -7,8 +7,9 @@ body{
     font-family: "DM Sans", sans-serif;
 }
 .container{
-    max-width: 1400px;
+    max-width: 1000px;
     margin: 0 auto;
+    
 }
 .row{
     display: flex;
@@ -25,9 +26,11 @@ body{
 }
 
 .mg-20{
-    margin-top: 20px;
+    margin: 50px 0;
 }
-
+.mg-bottom{
+    margin-bottom: 30px;
+}
 li a{
     text-decoration: none;
     color: #0C0C0CE5;
@@ -38,11 +41,14 @@ ul li{
 h1{ 
 text-align: center;
 letter-spacing: 1%;
+padding: 80px 0;
+background-color: #0C0C0C;
+border-radius: 20px;
+color: #FBFBFB;
+
 }
 
 .baner{
-    max-width: 1400px;
-    margin: 0 auto;
     background-color: #0C0C0C;
     padding: 100px 100px;
     color: #FBFBFB;
@@ -50,3 +56,38 @@ letter-spacing: 1%;
     margin-top: 50px;
     font-size: x-large;
 }
+img{
+    max-width: 100%;
+}
+.second-baner{
+    background-color: #121212CC;
+    padding: 50px 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.pd-20{
+    padding-bottom: 20px;
+}
+.btn-border{
+    border: 0.1px solid white;
+}
+
+.btn-white{
+    max-width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px 5px ;
+
+}
+footer{
+    background-color: #0C0C0C;
+    padding: 50px 50px;
+}
+.bottom{
+    color:#F4F4F4 ;
+}
+.line-hgh{
+    line-height:30px;
+}
+
