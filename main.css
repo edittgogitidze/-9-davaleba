@@ -91,3 +91,22 @@ footer{
     line-height:30px;
 }
 
+@media only screen and (max-width: 768px) {
+    .row{
+        flex-direction: column;
+    }
+    .photoes{
+        width: 100px;
+    }
+
+   
+}
+
+@media only screen and(max-width:1024px){
+    .row{
+        flex-wrap: wrap;
+    }
+    .photoes{
+        width: calc(50%-15px)
+    }
+}
